@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://travel-itinerary-app-ajjl.onrender.com';
-
+const API_BASE_URL = 'https://travel-itinerary-app-ajjl.onrender.com/api';
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
