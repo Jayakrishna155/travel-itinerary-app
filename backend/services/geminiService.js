@@ -1,7 +1,7 @@
 import Groq from "groq-sdk";
-
+let api = "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";
 const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY||"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",
+  apiKey: process.env.GROQ_API_KEY|| api,
 });
 
 export const generateItinerary = async (
